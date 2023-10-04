@@ -21,13 +21,25 @@ int main(){
         }
         switch(choice){
             case 1:
+                printf("Before Sorting:");
+                for(int i=0;i<n;i++){
+                    printf("%d ",arr[i]);
+                }
+                printf("\n");
                 bubblesortiterative(arr,n);
+                printf("After Sorting: ");
                 for(int i=0;i<n;i++){
                     printf("%d ",arr[i]);
                 }
                 break;
             case 2:
+                printf("Before Sorting:");
+                for(int i=0;i<n;i++){
+                    printf("%d ",arr[i]);
+                }
+                printf("\n");
                 bubblesortrecursive(arr,n,0,0);
+                printf("After Sorting: ");
                 for(int i=0;i<n;i++){
                     printf("%d ",arr[i]);
                 }
